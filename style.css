@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Signika+Negative:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #000000;
+    position: absolute;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.ver-rectangle{
+    width: 11px;
+    height: 39px;
+    left: 474px;
+    top: 88px;
+    background: #FFCD05;
+}
+.stories{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.rect{
+    width: 64px;
+    height: 24px;
+    background: #FFCD05;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.head-1{
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-left: 50px;
+}
+.rectangle{
+    width: 434px;
+    height: 100px;
+    background: #141414;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.side-img img{
+    width: 95px;
+    height: 95px;
+    border-radius: 15px;
+}
+.side-content h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0 15px;
+}
+.side-content p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+}
+.content-heading{
+    display: flex;
+    margin-left: 65px;
+    margin-bottom: 15px;
+}
+.rec-1{
+    width: 10px;
+    background: #FFCD05;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightside img{
+    width: 546px;
+    height: 254px;
+    border-radius: 20px;
+}
+.sec-2{
+    display: flex;
+    gap: 25px;
+}
+.sub-sec1 img{
+    width: 272px;
+    height: 334px;
+}
+.sub-sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub-sec2 img{
+    height: 156px;
+    width: 248px;
+}
